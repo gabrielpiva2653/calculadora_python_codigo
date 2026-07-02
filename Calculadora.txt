@@ -1,0 +1,75 @@
+gabriel@DESKTOP-5U59SKR:~/modulo1/python$ mkdir /home/gabriel/modulo1/calc
+gabriel@DESKTOP-5U59SKR:~/modulo1/python$ ls
+nome.py  python_script.sh
+gabriel@DESKTOP-5U59SKR:~/modulo1/python$ cd --
+gabriel@DESKTOP-5U59SKR:~$ ls
+modulo1
+gabriel@DESKTOP-5U59SKR:~$ cd modulo1
+gabriel@DESKTOP-5U59SKR:~/modulo1$ ls
+calc  git  linux  logica  python
+gabriel@DESKTOP-5U59SKR:~/modulo1$ calc
+Command 'calc' not found, but can be installed with:
+sudo apt install calc
+gabriel@DESKTOP-5U59SKR:~/modulo1$ cd calc
+gabriel@DESKTOP-5U59SKR:~/modulo1/calc$ ls
+gabriel@DESKTOP-5U59SKR:~/modulo1/calc$ nano_calculadora.sh
+nano_calculadora.sh: command not found
+gabriel@DESKTOP-5U59SKR:~/modulo1/calc$ nano_calculadora.py
+nano_calculadora.py: command not found
+gabriel@DESKTOP-5U59SKR:~/modulo1/calc$ chmod +x calculadora.sh
+chmod: cannot access 'calculadora.sh': No such file or directory
+gabriel@DESKTOP-5U59SKR:~/modulo1/calc$ nano python_script.sh
+gabriel@DESKTOP-5U59SKR:~/modulo1/calc$ python3^C
+gabriel@DESKTOP-5U59SKR:~/modulo1/calc$
+gabriel@DESKTOP-5U59SKR:~/modulo1/calc$ ls
+gabriel@DESKTOP-5U59SKR:~/modulo1/calc$
+gabriel@DESKTOP-5U59SKR:~/modulo1/calc$ nano calculadora.sh
+gabriel@DESKTOP-5U59SKR:~/modulo1/calc$ nano calculadora.sh
+gabriel@DESKTOP-5U59SKR:~/modulo1/calc$ ll
+total 12
+drwxr-xr-x 2 gabriel gabriel 4096 Jun 30 21:36 ./
+drwxr-xr-x 7 gabriel gabriel 4096 Jun 30 21:24 ../
+-rw-r--r-- 1 gabriel gabriel  113 Jun 30 21:36 calculadora.sh
+gabriel@DESKTOP-5U59SKR:~/modulo1/calc$ chmod +x calculadora.sh
+gabriel@DESKTOP-5U59SKR:~/modulo1/calc$ ./calculadora.sh
+Iniciando a calculadora
+O diretório atual é: /home/gabriel/modulo1/calc
+Finalizando a calculador
+gabriel@DESKTOP-5U59SKR:~/modulo1/calc$ nano calculador.py
+gabriel@DESKTOP-5U59SKR:~/modulo1/calc$ python3 calculador.py
+Digite seu nome: Gabriel
+Gabriel
+Vamos realizar essa soma
+
+Digite o valor de x: 10
+10
+Digite o valor de y: 20
+20
+30
+('O resultado dessa soma é:', 30)
+O resultado da soma é maior que 10
+Vamos realizar essa subtração
+
+Digite o valor de x: 19
+19
+Digite o valor de y: 9
+9
+10
+('O resultado da subtração é:', 10)
+Vamos realizar essa multiplicação
+
+Digite o valor de x: 19
+19
+Digite o valor de y: 3
+3
+57
+('O resultado da operação é:', 57)
+O resultado dessa multiplicação é menor que 100
+Digite o valor de x: 10
+10
+Digite o valor de y: 2
+2
+5.0
+('O resultado da divisão é:', 5.0)
+O resultado é menor que 6
+gabriel@DESKTOP-5U59SKR:~/modulo1/calc$
